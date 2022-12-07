@@ -12,7 +12,6 @@ public class Info {
     public ArrayList<Artist> Artists = new ArrayList<>();
     public ArrayList<Genre> Genres = new ArrayList<>();
 
-
     private Info(){
         Artists.add(new Artist(1,"Aerosmith"));
         Artists.add(new Artist(2,"Thegiornalisti"));
