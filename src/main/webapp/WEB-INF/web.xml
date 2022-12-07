@@ -1,0 +1,53 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <display-name>M-JD2-95-22</display-name>
+    <servlet>
+        <servlet-name>Servletf</servlet-name>
+        <servlet-class>org.example.web.Servletf</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servletf</servlet-name>
+        <url-pattern>/f</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Servlets</servlet-name>
+        <servlet-class>org.example.web.Servlets</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servlets</servlet-name>
+        <url-pattern>/s</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Servletth</servlet-name>
+        <servlet-class>org.example.web.Servletth</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servletth</servlet-name>
+        <url-pattern>/th</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Servletfo</servlet-name>
+        <servlet-class>org.example.web.Servletfo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servletfo</servlet-name>
+        <url-pattern>/fo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Servletfi</servlet-name>
+        <servlet-class>org.example.web.Servletfi</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servletfi</servlet-name>
+        <url-pattern>/fi</url-pattern>
+    </servlet-mapping>
+
+</web-app>
+
